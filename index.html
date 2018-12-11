@@ -11,17 +11,24 @@
       h.h1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px Helvetica}
 	  a {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Helvetica}
 	  
-	  .center {
-  margin: auto;
-  width: 15%;
-  padding: 10px;
+	  .block-center {
+  		margin: 0 auto;
+		text-align: center;
 }
-	  
+	  .center{
+		  text-align: center;
+		  
+	  }
+	  .main-section{
+		  margin: 0 auto;
+		  text-align: center;
+		  width: 50%;
+	  }
 	  img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 80%;
 }
 	  
 	  
@@ -33,8 +40,9 @@ body {
 </style>
 </head>
 <body>
-<h1 class="h1 center">Welcome to my site!</h1>
+<h1 class="h1 block-center">My Portfolio</h1>
 <br>
+<div class="main-section">
 <img src="images/Endless Runner Thumbnail.png" alt="Running Forever">
 <br>
 <a class="center" href="Endless-Runner/index.html">Endless Runner</a>
@@ -56,5 +64,6 @@ body {
 <img src="images/Tanks Thumbnail.png" alt = "Tanks Fight!">
 <br>
 <a href="Tanks/index.html">Tanks!</a>
+</div>
 </body>
 </html>
