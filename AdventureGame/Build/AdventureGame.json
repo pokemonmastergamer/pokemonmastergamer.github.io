@@ -1,0 +1,12 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Adventure Game Phase 6",
+"dataUrl": "AdventureGame.data.unityweb",
+"wasmCodeUrl": "AdventureGame.wasm.code.unityweb",
+"wasmFrameworkUrl": "AdventureGame.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
